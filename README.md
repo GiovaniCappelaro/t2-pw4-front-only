@@ -1,3 +1,7 @@
+#Link para o backEnd:
+https://github.com/GiovaniCappelaro/pw4-t1-atualizado.git
+-> Mudar user e password do conexao se necessário
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
