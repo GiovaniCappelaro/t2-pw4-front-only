@@ -5,6 +5,8 @@ import Home from './page/home';
 import Potion from './page/potions';
 import Header from './components/Header';
 import CreatePotion from './page/potions/createPotion';
+import Spell from './page/spells';
+import CreateSpell from './page/spells/createSpell';
 
 // npm install react-router-dom
 
@@ -14,9 +16,15 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
+
         <Route path="/potions" element={<Potion />} />
         <Route path="/potions/addPotion" element={<CreatePotion/>}/>
         <Route path="/potions/editPotion/:id" element={<CreatePotion/>}/>
+
+        <Route path="/spells" element={<Spell/>} />
+        <Route path="/spells/addSpell" element={<CreateSpell/>}/>
+        <Route path="/spells/editSpell/:id" element={<CreateSpell/>}/>
+
       </Routes>
     </Router></>
   );

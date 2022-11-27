@@ -54,8 +54,6 @@ export default function Potion(){
                 <h1>Nenhuma poção cadastrada.</h1>
             </>)
           }
-         
-        {/* <button style={{padding: 10, margin: 10}}><Link to="./addPotion">Add Potion</Link></button> */}
       </div>
     )
 }
